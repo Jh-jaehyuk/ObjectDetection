@@ -1,0 +1,13 @@
+train: /Users/j213h/Documents/test_ObjectDetection/CustomDataset_Drones/Drones-1/train/images
+val: /Users/j213h/Documents/test_ObjectDetection/CustomDataset_Drones/Drones-1/valid/images
+
+nc: 1
+names:
+  0: Drones
+
+roboflow:
+  workspace: drones1
+  project: drones-1.1
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/drones1/drones-1.1/dataset/1

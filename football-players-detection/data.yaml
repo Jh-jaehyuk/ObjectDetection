@@ -1,0 +1,18 @@
+path: /Users/j213h/Documents/test_ObjectDetection/CustomDataset_FootballPlayer/football-players-detection/
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 4
+names:
+  0: ball
+  1: goalkeeper
+  2: player
+  3: referee
+
+roboflow:
+  workspace: roboflow-jvuqo
+  project: football-players-detection-3zvbc
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/roboflow-jvuqo/football-players-detection-3zvbc/dataset/2
